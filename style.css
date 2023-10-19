@@ -1,0 +1,207 @@
+*{
+    margin-top: 0;
+
+}
+
+body{
+   
+    background-color: rgb(154, 166, 107);
+}
+
+
+.nav{
+    width: 100%;
+    display: flex;
+    background-color: rgb(233, 192, 86);
+    height: 0px;
+    position: fixed;
+   
+
+    align-items: center;
+    padding: 30px 0;
+}
+
+nav li a{
+    text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+    color: rgb(0, 0, 0);
+  
+}
+nav li{
+    display: inline;
+    padding: 30px ;
+}
+
+.nav .logo h1{
+    color: brown;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav li a:hover{
+    transition: all 0.4s ease 0;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.form{
+    margin-top: 100px;
+    float: right;
+   
+  
+    
+}
+
+.sing{
+    float: right;
+    
+}
+
+
+.div1{
+    margin-top: 50px;
+   margin-left: 50px;
+
+    float: left;
+    width: 73%;
+    height: 400px;
+    display: inline flex;
+    background-color: rgb(253, 212, 11);
+}
+
+
+
+.f1 img{
+    margin-top: 50px;
+margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    transition: width 2s, height 4s;
+}
+
+
+
+
+.f2 img{
+    margin-top: 50px;
+     width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+
+.f3 img{
+   padding-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+
+}
+ .f3 img:hover{
+    transform: scale(1.1);
+ }
+
+
+
+
+
+ #b{
+    
+    margin-left: 150px;
+    
+ }
+
+
+ .div1 a{
+text-decoration: none;
+
+ }
+
+
+
+
+ .table{
+   margin-left: 600px;
+    margin-top: 500px;
+    
+   
+    width: 20%;
+   
+ }
+
+ .table td{
+    border: 1px solid ;
+    font-size: 30px;
+ }
+ .r{
+    font-size:100px ;
+    margin-left: 400px;
+    
+    
+ }
+  
+ .recipes{
+    background-color: rgba(236, 191, 11, 0.623);
+    width: 73%;
+  margin-left: 200px;
+    height: 800px;
+    margin-top: 200px;
+ }
+ .r1{
+ margin-left: 50px;
+ }
+
+
+.iframe{
+
+width: 1300px;
+
+margin-top: 100px;
+background-color: black;
+margin-left: -100px;
+
+}
+
+.g{
+ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+ 
+.iframe2{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+.videos{
+
+font-size: 40px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+
+  }
+
+  .audios{
+    margin-left: 350px;
+    margin-top: 100px;
+    background-color: brown;
+    width: 300px;
+  }
+
+.footer{
+  
+   width: 100%;
+    margin-top: 30px;
+height: 100px;
+   
+}
+
